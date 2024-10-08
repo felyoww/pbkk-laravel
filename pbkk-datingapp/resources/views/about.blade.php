@@ -6,6 +6,7 @@
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
 </head>
@@ -17,16 +18,19 @@
         <div class="flex h-16 items-center justify-between">
           <div class="flex items-center">
             <div class="flex-shrink-0">
-              <img class="h-8 w-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
+              <img class="h-8 w-8" src="https://static.vecteezy.com/system/resources/previews/009/651/674/original/cute-dog-logo-free-vector.jpg" alt="Your Company">
             </div>
             <div class="hidden md:block">
               <div class="ml-10 flex items-baseline space-x-4">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a href="/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-pink-700 hover:text-white">Home</a>
-                <a href="/2Dpedia" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-pink-700 hover:text-white">2Dpedia</a>
-                <a href="/Projects" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-pink-700 hover:text-white">Projects</a>
-                <a href="/Blog" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-pink-700 hover:text-white">Blog</a>
-                <a href="/Contact" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-pink-700 hover:text-white">Contact</a>
+                <a href="/about" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-pink-700 hover:text-white">About</a>
+                
+                <a href="/project" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-pink-700 hover:text-white">Projects</a>
+                <a href="/contact" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-pink-700 hover:text-white">Contact</a>
+
+                <a href="/blog" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-pink-700 hover:text-white">Blog</a>
+                <a href="/contact" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-pink-700 hover:text-white">Contact</a>
               </div>
             </div>
           </div>
@@ -90,7 +94,7 @@
         <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
           <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
           <a href="./home" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Home</a>
-          <a href="./2Dpedia" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">2Dpedia</a>
+          <a href="./2Dpedia" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
           <a href="./Projects" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
           <a href="./Blog" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Blog</a>
           <a href="./Contact" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
