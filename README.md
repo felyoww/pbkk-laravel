@@ -1,6 +1,6 @@
-Fellyla Fiorenza Wilianto
+<b> Fellyla Fiorenza Wilianto
 5025221110
-PBKK IUP 2024
+PBKK IUP 2024 </b>
 
 Here's for my final project for the blog :
 
